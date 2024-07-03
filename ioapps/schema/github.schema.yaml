@@ -1,0 +1,19 @@
+---
+url:
+  required: true
+  type: str
+path:
+  required: true
+  type: str
+hash:
+  required: false
+  type: str
+  default: null
+recursive:
+  required: false
+  type: bool
+  default: false
+timing_bar:
+  required: false
+  type: bool
+  default: false
