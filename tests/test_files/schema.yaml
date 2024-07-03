@@ -1,0 +1,26 @@
+---
+variable1:
+  type: bool
+  required: true
+  longname: variable1
+variable2:
+  type: float
+  required: true
+  longname: variable2
+variable3:
+  type: int
+  required: true
+  longname: variable3
+variable4:
+  type: bool
+  required: false
+  default: false
+  longname: variable4
+variable5:
+  type: bool
+  default: true
+  longname: variable5
+variable6:
+  type: float
+  default: 1
+  longname: variable6

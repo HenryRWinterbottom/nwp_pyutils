@@ -1,0 +1,61 @@
+---
+exec_path:
+  help: |
+    The directory tree path for the respective executable application.
+  required: true
+  type: str
+run_path:
+  help: |
+    The directory tree path where the respective executable
+    application is to be executed.
+  required: true
+  type: str
+stdin:
+  help: |
+    A list of input files, of the executable application expected
+    order, for the respective executable application.
+  required: false
+  type: list
+  default:
+    -
+serial:
+  help: |
+    Boolean value indicating that the executable application is a
+    serial-type executable.
+  required: false
+  type: bool
+  default: false
+multi:
+  help: |
+    Boolean value indicating that the executable application is a
+    multiple CPU-type executable.
+  required: false
+  type: bool
+  default: false
+stderr:
+  help: |
+    The directory tree path for the executable application standard
+    error.
+  required: false
+  type: str
+  default: null
+stdout:
+  help: |
+    The directory tree path for the executable application standard
+    output.
+  required: false
+  type: str
+  default: null
+task_keys:
+  required: false
+  type: list
+  default:
+    - NTASKS
+ntasks:
+  required: false
+  type: int
+  default: 1
+launcher:
+  required: False
+  type: str
+  default: null
