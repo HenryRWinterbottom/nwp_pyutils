@@ -42,10 +42,9 @@ def setup(app):
 
 
 # Project information.
-project = "UFS Python Utilities"
+project = "Numerical Weather Prediction (NWP) Python Utilities API"
 copyright = "2023 Henry R. Winterbottom"
 author = "2023 Henry R. Winterbottom"
-# release = None
 
 # General configuration.
 extensions = [
@@ -81,4 +80,4 @@ html_theme_path = ["_themes"]
 html_theme_options = {"body_max_width": "none"}
 html_static_path = []
 html_context = {}
-htmlhelp_basename = "ufs_pyutils"
+htmlhelp_basename = "nwp_pyutils"
