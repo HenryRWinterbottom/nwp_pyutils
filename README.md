@@ -1,14 +1,9 @@
-[![License](https://img.shields.io/badge/License-GPL-black)](https://github.com/HenryRWinterbottom/nwp_pyutils/blob/develop/LICENSE.md)
+[![License](https://img.shields.io/badge/License-Proprietary-black)](https://github.com/HenryRWinterbottom/nwp_pyutils/blob/develop/LICENSE.md)
 ![Linux](https://img.shields.io/badge/Linux-ubuntu%7Ccentos-lightgrey)
-![Python Version](https://img.shields.io/badge/Python-3.5|3.6|3.7-blue)
+![Python Version](https://img.shields.io/badge/Python->=3.9-blue)
 [![Code style: black](https://img.shields.io/badge/Code%20Style-black-purple.svg)](https://github.com/psf/black)
 [![Documentation Status](https://readthedocs.org/projects/nwp-pyutils/badge/?version=latest)](https://nwp-pyutils.readthedocs.io/en/latest/?badge=latest)
 [![Coverage](https://codecov.io/gh/HenryRWinterbottom/nwp_pyutils/branch/develop/graph/badge.svg)](https://codecov.io/gh/HenryRWinterbottom/nwp_pyutils)
-
-[![Build Tests](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/buildtest.yaml/badge.svg)](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/buildtest.yaml)
-[![Unit Tests](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/unittests.yaml/badge.svg)](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/unittests.yaml)
-[![Python Coding Standards](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/pycodestyle.yaml/badge.svg)](https://github.com/HenryRWinterbottom/nwp_pyutils/actions/workflows/pycodestyle.yaml)
-
 
 # Overview
 
@@ -38,23 +33,11 @@ following commands:
 user@host:$ cd /path/to/nwp_pyutils
 user@host:$ pip install --upgrade pip
 user@host:$ pip install -r requirements.txt
+user@host:$ export PYTHONPATH="/path/to/nwp_pyutils:${PYTHONPATH}"
 ~~~
 
 For more information on using pip and requirements.txt files, refer
 [here](https://pip.pypa.io/en/stable/reference/requirements-file-format/).
-
-# Building and Installing
-
-To install using Python setup tools, proceed as follows:
-
-~~~shell
-user@host:$ cd /path/to/nwp_pyutils
-user@host:$ python setup.py build --user
-user@host:$ python setup.py install --user
-~~~
-
-For additional information and options for building Python packages,
-see [here](https://docs.python.org/3.5/distutils/setupscript.html).
 
 # Docker Containers
 
