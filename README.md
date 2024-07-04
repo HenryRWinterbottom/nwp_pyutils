@@ -18,8 +18,6 @@ for common Python utilities used in various numerical weather prediction
 
 - **Authors:** [Henry R. Winterbottom](mailto:hrwinterbottom@gmail.com)
 - **Maintainers:** Henry R. Winterbottom
-- **Version:** 0.0.1
-- **License:** GPL v3.0
 - **Copyright:** Henry R. Winterbottom
 
 # Cloning
