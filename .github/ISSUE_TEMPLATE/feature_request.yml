@@ -1,0 +1,48 @@
+name: Feature Request
+description: Request a new feature.
+labels: ["feature", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search the [issue tracker](https://github.com/HenryRWinterbottom/nwp_stacks/issues) to make sure the feature has not already been requested.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: What new functionality do you need?
+      placeholder: Provide a consise description of the problem to be addressed by this feature request.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: requirements
+    attributes:
+      label: What are the requirements for the new feature?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Completion Criteria
+      placeholder: What does it mean for this feature request to be completed?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: suggested_solution
+    attributes:
+      label: Propose a solution (optional)
+      placeholder: |
+        Propose how this issue can be resolved.
+
+        Things to address include:
+          * Details of the technical implementation
+          * Tradeoffs made in design decisions
+          * Caveats and considerations for the future
+
+          If there are multiple solutions, please present each one separately and provide any intercomparisons at the very end."
+    validations:
+      required: false
