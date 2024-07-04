@@ -2,8 +2,6 @@
 ![Linux](https://img.shields.io/badge/Linux-ubuntu%7Ccentos-lightgrey)
 ![Python Version](https://img.shields.io/badge/Python->=3.9-blue)
 [![Code style: black](https://img.shields.io/badge/Code%20Style-black-purple.svg)](https://github.com/psf/black)
-[![Documentation Status](https://readthedocs.org/projects/nwp-pyutils/badge/?version=latest)](https://nwp-pyutils.readthedocs.io/en/latest/?badge=latest)
-[![Coverage](https://codecov.io/gh/HenryRWinterbottom/nwp_pyutils/branch/develop/graph/badge.svg)](https://codecov.io/gh/HenryRWinterbottom/nwp_pyutils)
 
 # Overview
 
