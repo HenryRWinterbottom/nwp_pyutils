@@ -16,7 +16,7 @@ This repository contains an application programming interface (API)
 for common Python utilities used in various numerical weather prediction
 (NWP) and data assimilation related applications.
 
-- **Authors:** [Henry R. Winterbottom](mailto:hrwinterbottom@gmail.com)
+- **Authors:** [Henry R. Winterbottom](mailto:hrwinterbottomwxdev@gmail.com)
 - **Maintainers:** Henry R. Winterbottom
 - **Copyright:** Henry R. Winterbottom
 
