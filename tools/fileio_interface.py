@@ -13,6 +13,10 @@ Description
 Functions
 ---------
 
+    build_path(path_list)
+
+        This function builds and returns a directory tree path.
+
     chdir(path)
 
         This function execute task calls within the specified datapath
@@ -124,6 +128,7 @@ History
 import os
 import shutil
 from contextlib import contextmanager
+from pathlib import Path
 from tempfile import NamedTemporaryFile
 from typing import List, Tuple
 
@@ -134,6 +139,7 @@ from utils.logger_interface import Logger
 
 # Define all available module properties.
 __all__ = [
+    "build_path",
     "chdir",
     "concatenate",
     "copyfile",
@@ -154,6 +160,39 @@ __all__ = [
 # ----
 
 logger = Logger(caller_name=__name__)
+
+# ----
+
+
+def build_path(path_list: List) -> str:
+    """
+    Description
+    -----------
+
+    This function builds and returns a directory tree path.
+
+    Parameters
+    ----------
+
+    path_list: ``List``
+
+        A Python ordered list containing the directory tree path
+        string(s).
+
+    Returns
+    -------
+
+    path: ``str``
+
+        A Python string containing the directory tree path.
+
+    """
+
+    # Build the directory tree path.
+    path = str(Path(*path_list))
+
+    return path
+
 
 # ----
 
